@@ -46,8 +46,8 @@ class IndexController extends Controller {
       <div class="fb-row-container full-height fb-scroll">
         <main role="main" class="fb-main page--landing row-fluid no-shrink center-vertically fb-img-glitch">
           <div class="fb-container fb-centered-main">
-            <h1 class="fb-glitch" data-text={tr('Conquer the world')}>{tr('Conquer the world')}</h1>
-            <p class="typed-text">{tr('Welcome to the Facebook Capture the Flag Competition. By clicking "Play," you will be entered into the official CTF challenge. Good luck in your conquest.')}</p>
+            <h1 class="fb-glitch" data-text={tr('FIT2078 CTF Challenge')}>{tr('FIT2078 CTF Challenge')}</h1>
+            <p class="typed-text">{tr('Welcome to the Monash University FIT2078 Capture the Flag Competition. By clicking "Play," you will be entered into the CTF challenge. Good luck in your conquest.')}</p>
 
             <div class="fb-actionable">
               <a href="/index.php?page=countdown" class="fb-cta cta--yellow">{tr('Play')}</a>
