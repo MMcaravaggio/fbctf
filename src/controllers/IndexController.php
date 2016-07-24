@@ -3,7 +3,7 @@
 class IndexController extends Controller {
   <<__Override>>
   protected function getTitle(): string {
-    return tr('Facebook CTF');
+    return tr('Monash FIT2078 CTF');
   }
 
   <<__Override>>
