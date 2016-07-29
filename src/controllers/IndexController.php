@@ -114,7 +114,7 @@ class IndexController extends Controller {
           <header class="fb-section-header fb-container">
             <h1 class="fb-glitch" data-text={tr('Official CTF Rules')}>{tr('Official CTF Rules')}</h1>
             <p class="inner-container typed-text">
-              {tr('Following actions are prohibited, unless explicitly told otherwise by event Admins.')}
+              {tr('Following actions are prohibited, unless explicitly told otherwise by your tutors.')}
             </p>
           </header>
           <div class="fb-rules">
@@ -135,7 +135,7 @@ class IndexController extends Controller {
                 <h6>{tr('Attacking Scoreboard')}</h6>
               </header>
               <div class="rule-main">
-                <p>{tr('No attacking the competition infrastructure. If bugs or vulns are found, please alert the competition organizers immediately.')}
+                <p>{tr('No attacking the competition infrastructure. If bugs or vulns are found, please alert your tutors immediately.')}
                 </p>
                 <p></p>
               </div>
@@ -157,7 +157,7 @@ class IndexController extends Controller {
                 <h6>{tr('Bruteforcing')}</h6>
               </header>
               <div class="rule-main">
-                <p>{tr('No brute forcing of challenge flag/ keys against the scoring site.')}
+                <p>{tr('No brute forcing of challenge flag or keys against the scoring site.')}
                 </p>
                 <p></p>
               </div>
@@ -179,11 +179,11 @@ class IndexController extends Controller {
                 <h6>{tr('Disclaimer')}</h6>
               </header>
               <div class="rule-main">
-                <p>{tr('By participating in the contest, you agree to release Facebook and its employees, and the hosting organization from any and all liability, claims or actions of any kind whatsoever for injuries, damages or losses to persons and property which may be sustained in connection with the contest. You acknowledge and agree that Facebook et al is not responsible for technical, hardware or software failures, or other errors or problems which may occur in connection with the contest.')}
+                <p>{tr('By participating in the contest, you agree to release the hosting organization from any and all liability, claims or actions of any kind whatsoever for injuries, damages or losses to persons and property which may be sustained in connection with the contest. You acknowledge and agree that your organization is not responsible for technical, hardware or software failures, or other errors or problems which may occur in connection with the contest.')}
                 </p>
               </div>
             </section>
-            <p>{tr('If you have any questions about what is or is not allowed, please ask an organizer.')}</p>
+            <p>{tr('If you have any questions about what is or is not allowed, please consult your tutor.')}</p>
             <p></p>
             <p>{tr('Have fun!')}</p>
             <p></p>
